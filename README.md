@@ -10,7 +10,7 @@ The primary objective was to leverage SQL to explore and understand Walmart's sa
 
 ## Data Source
 
-The dataset used for this project was obtained from the Kaggle Walmart Sales Forecasting Competition. It includes sales transactions from three Walmart branches: Mandalay, Yangon, and Naypyitaw. [cite: 3, 4, 5]
+The dataset used for this project was obtained from the Kaggle Walmart Sales Forecasting Competition. It includes sales transactions from three Walmart branches: Mandalay, Yangon, and Naypyitaw. 
 
 ## Data Description
 
@@ -40,11 +40,11 @@ The dataset comprises 17 columns and 1000 rows. Here's a breakdown of the column
 
 In this project, I focused on using SQL to explore three key areas:
 
-1.  **Product Analysis:** Analyzing product lines to identify top performers and areas for potential improvement. [cite: 44, 45]
+1.  **Product Analysis:** Analyzing product lines to identify top performers and areas for potential improvement. 
    
-2.  **Sales Analysis:** Investigating sales trends to evaluate the effectiveness of sales strategies. [cite: 45, 46]
+2.  **Sales Analysis:** Investigating sales trends to evaluate the effectiveness of sales strategies. 
    
-3.  **Customer Analysis:** Segmenting customers, understanding their purchasing behavior, and assessing profitability. [cite: 47]
+3.  **Customer Analysis:** Segmenting customers, understanding their purchasing behavior, and assessing profitability. 
 
 ## SQL Methodology
 
@@ -52,18 +52,18 @@ The project was structured using the following SQL-driven approach:
 
 1.  **Data Wrangling:**
    
-   * Examined the data for NULL values. In this dataset, the tables were designed with "NOT NULL" constraints, so no specific NULL value handling was required. [cite: 48, 49, 50]
+   * Examined the data for NULL values. In this dataset, the tables were designed with "NOT NULL" constraints, so no specific NULL value handling was required. 
    
 2.  **Feature Engineering (using SQL):**
    
    * Created new columns using SQL queries to derive additional insights:
-        * `time_of_day` (Morning, Afternoon, Evening) to analyze sales by time of day. [cite: 51, 52, 53]
-        * `day_name` (e.g., Mon, Tue, Wed) to analyze sales by day of the week. [cite: 54, 55]
-        * `month_name` (e.g., Jan, Feb, Mar) to analyze sales by month. [cite: 56, 57]
+        * `time_of_day` (Morning, Afternoon, Evening) to analyze sales by time of day. 
+        * `day_name` (e.g., Mon, Tue, Wed) to analyze sales by day of the week. 
+        * `month_name` (e.g., Jan, Feb, Mar) to analyze sales by month. 
    
 3.  **Exploratory Data Analysis (EDA) with SQL:**
    
-   * Conducted EDA by formulating and executing SQL queries to answer specific business questions. [cite: 58, 59]
+   * Conducted EDA by formulating and executing SQL queries to answer specific business questions. 
 
 ## Business Questions (SQL Queries)
 
